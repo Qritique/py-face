@@ -40,4 +40,4 @@ def sort_faces_into_folders(image_folder_path, output_folder_path):
             shutil.move(path, os.path.join(person_folder, os.path.basename(path)))
 
 # Usage
-sort_faces_into_folders('/Users/tomin/Downloads/snapshots-faceproject', '/Users/tomin/Downloads/snapshots-faceproject/sorted')
+sort_faces_into_folders('/Users/user/Downloads/snapshots-faceproject', '/Users/user/Downloads/snapshots-faceproject/sorted')
